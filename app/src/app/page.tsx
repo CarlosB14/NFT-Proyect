@@ -1,5 +1,11 @@
-import Image from "next/image";
+'use client'
 
-export default function Home() {
-  return;
+import { ConnectWallet } from '@/app/components/connect-wallet'
+
+export default function Page() {
+  return (
+    <>
+      <ConnectWallet />
+    </>
+  )
 }

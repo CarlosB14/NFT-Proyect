@@ -1,7 +1,7 @@
 {
   "name": "app",
-  "version": "0.1.0",
   "private": true,
+  "version": "0.0.0",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,22 +9,24 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@tanstack/react-query": "^5.18.0",
-    "next": "14.1.0",
-    "react": "^18",
-    "react-dom": "^18",
-    "viem": "^2.7.1",
-    "wagmi": "^2.5.5"
+    "@tanstack/react-query": "5.0.5",
+    "next": "^13.5.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "viem": "latest",
+    "wagmi": "latest"
   },
   "devDependencies": {
-    "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
-    "autoprefixer": "^10.0.1",
-    "eslint": "^8",
-    "eslint-config-next": "14.1.0",
-    "postcss": "^8",
-    "tailwindcss": "^3.3.0",
-    "typescript": "^5"
+    "@types/node": "^20.7.2",
+    "@types/react": "^18.2.22",
+    "@types/react-dom": "^18.2.7",
+    "@wagmi/cli": "latest",
+    "bufferutil": "^4.0.7",
+    "encoding": "^0.1.13",
+    "lokijs": "^1.5.12",
+    "pino-pretty": "^10.2.0",
+    "supports-color": "^9.4.0",
+    "typescript": "^5.2.2",
+    "utf-8-validate": "^6.0.3"
   }
 }

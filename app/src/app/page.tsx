@@ -1,11 +1,15 @@
 'use client'
 
-import { ConnectWallet } from '@/app/components/connect-wallet'
+import MintBtn from "./components/mint-btn"
+import NFTCard from "./components/nft-card"
 
-export default function Page() {
+function App() {
   return (
     <>
-      <ConnectWallet />
+      <MintBtn />
+      <NFTCard />
     </>
   )
 }
+
+export default App

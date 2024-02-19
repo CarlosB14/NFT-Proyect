@@ -1,0 +1,33 @@
+section.hero{
+    position: relative;
+    width: 100%;
+
+    div.potion{
+        display: flex;
+        padding-bottom: 20px;
+
+        figure{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+
+            img{
+                width: 50%;
+            }
+        }
+    }
+
+    div.titol{
+        text-align: center;
+        color: #0BEB00;
+        font-size: 25px;
+        font-weight: 400;
+        padding-bottom: 20px;
+        
+        
+        h1{
+            font-size: 25px;
+            padding-bottom: 10px;
+        }
+    }
+}

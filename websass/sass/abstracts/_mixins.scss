@@ -17,7 +17,7 @@
     }
   }
 
-  @if $bp == desktopxl {
+  @if $bp == desktopXl {
     @media (min-width: $bp-desktop-xl) {
       @content;
     }

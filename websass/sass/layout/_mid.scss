@@ -31,3 +31,35 @@ section.hero{
         }
     }
 }
+
+@include breakpoint(desktop){
+    section.hero{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        div.potion{
+            width: 100%;
+            justify-content: space-around;
+            padding-top: 20px;
+            figure{
+                width: 400px;
+            }
+        }
+
+        div.titol{
+            h1{
+                padding-top: 10px;
+            }
+        }
+    }
+}
+
+@include breakpoint(desktopXl){
+    section.hero{
+        div.potion{
+            padding-left: 50px;
+        }
+    }
+}

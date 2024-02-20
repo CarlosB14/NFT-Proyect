@@ -4,3 +4,10 @@ div.container{
     background-repeat: no-repeat;
     background-position: 51% top;
 }
+
+@include breakpoint(desktop){
+    div.container{
+        display: flex;
+    }
+
+}

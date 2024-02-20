@@ -65,7 +65,7 @@ section.result{
           
           strong {
             z-index: 2;
-            font-family: 'Avalors Personal Use';
+            font-family: $michroma-font;
             font-size: 12px;
             letter-spacing: 5px;
             color: #FFFFFF;
@@ -203,4 +203,34 @@ section.result{
             }
           }
     }
+}
+
+@include breakpoint(desktop){
+  section.result{
+    width: 24%;
+    display: flex;
+    align-items: center;
+
+    div.result-cel{
+      align-items: center;
+      flex-direction: column;
+      figure{
+
+        img{
+          width: 90%;
+        }
+      }
+      button.btn{
+        position: relative;
+        margin-top: 70px;
+        width: 12rem;
+        height: 4rem;
+
+        strong{
+          font-size: 18px;
+          font-family: $michroma-font;
+        }
+      }
+    }
+  }
 }

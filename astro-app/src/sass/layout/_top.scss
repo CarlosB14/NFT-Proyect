@@ -1,0 +1,27 @@
+section.info {
+    position: relative;
+
+    div.own-nfts{
+    display: flex;
+    padding-top: 25px;
+    justify-content: space-around;
+    padding-bottom: 35px;
+    }
+
+    div.cel-main{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 20px;
+
+        figure {
+            display: flex;
+            justify-content: center;
+
+            img{
+            width: 50%;
+            }
+        }
+    }
+}
+
